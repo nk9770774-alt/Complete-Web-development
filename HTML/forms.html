@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Form</title>
+</head>
+<body>
+    <h1>Form</h1>
+    <div>
+        <fieldset>
+            <legend>Nitin Details</legend>
+        <form action="welcome.html" target="_blank">
+            <label for="fullname">Full Name :</label>
+            <input type="text" id="fullname" placeholder="Enter your name" required>
+            <br><br>
+
+            <label for="Fullemail">Full Email :</label>
+            <input type="email" id="Fullemail" placeholder="Enter your email"required>
+            
+            <br><br>
+            <label for="fullpassword">Full password:</label>
+            <input type="password" id="fullpassword" placeholder="Enter your password"required>
+            <br><br>
+
+            <label for="checkbox">Are you 18+?:</label>
+            <input type="checkbox" id="checkbox" required>
+            <br><br>
+            <label for="PhoneNumber">Enter your phone Number:</label>
+            <input type="Number" id="PhoneNumber" placeholder="Enter your Phone Number" 
+            style="width:200px" required  min="0">
+
+            <br><br>
+            <label for="Gender">Gender:</label>
+            <label for="male">Male</label>
+            <input type="radio" id="male" name="Gender" required>
+            <label for="female">Female</label>
+            <input type="radio" id="female" name="Gender" required>
+
+            <br><br>
+            <label for="DOB">Your DOB :</label>
+            <input type="date" id="DOB" required>
+
+            <br><br>
+            <label for="file">My file :</label>
+            <input type="file" id="file"required>
+            <br><br>
+            <!-- <input type="submit"> -->
+            <label for="city">Select your city:</label>
+            <select name="city" id="city">
+                <option value="delhi">Delhi</option>
+                <option value="mumbai"selected>Mumbai</option>
+                <option value="channi">channi</option>
+                <option value="pakistan">Pakistan</option>
+                <option value="udissa" >udissa</option>
+            </select>
+            <br><br>
+            <button type="submit">Submit Form</button>
+        </form>
+        </fieldset>
+    </div>
+
+</body>
+
+</html>
